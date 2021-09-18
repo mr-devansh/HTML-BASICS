@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section>
+            <h1>
+                FORM FOR ANY QUERY
+            </h1>
+        </section>
+        <article>
+            <div>
+                <form action="form.php">
+                    <div>
+                        <input type="text" id="enter_name" name="name">
+                        <label for="enter_name">NAME</label>
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="enter_email"> 
+                        <label for="enter_email">EMAIL</label>
+                    </div>
+                    <div>
+                        <input type="date" name="dob" id="enter_dob" value="DOB">
+                        <label for="enter_dob">DOB</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="register" id="enter_registered" value="REGISTER">
+                        <label for="enter_registered">REGISTERED?</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="enter_section_A" name="section" value="SECTION A">
+                        <label for="enter_section_A">SECTION A</label>
+                        <input type="radio" id="enter_section_B" name="section" value="SECTION B">
+                        <label for="enter_section_B">SECTION B</label>
+                    </div>
+                    <div>
+                        <select name="branch" id="enter_branch">
+                            <option value="AI">AI</option>
+                            <option value="DS">DS</option>
+                        </select>
+                        <label for="enter_branch">ENTER BRANCH</label>
+                    </div>
+                    <div>
+                        <textarea name="query" id="enter_query" cols="30" rows="10" placeholder="ENTER YOUR QUERY"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" ></button>
+                        
+                    </div>
+                </form>
+            </div>
+        </article>
+        <aside></aside>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
